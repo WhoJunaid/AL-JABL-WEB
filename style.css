@@ -1,0 +1,207 @@
+*{margin: 0;
+
+padding: 0;}
+
+
+body{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom:0px;
+    height: 5000px;
+}
+
+.navbar-brand{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5vw;
+    
+
+}
+.nav-item{
+    margin-right: 20px;
+    margin-top: 4px;
+}
+.navbar-toggler-icon{
+    color: aliceblue;
+}
+.dropdown-menu{
+    width: 10%;
+}
+.heading-in-carousel{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    left: 30%;
+    top:40%;
+    z-index: 2;
+    margin: 0;
+    padding:0 ;
+    font-size: 5vw;
+    color: white;
+    font-style: bold ;
+    
+
+
+}
+
+
+.carousel-slide{
+position: relative;
+height: 32vw;
+overflow: hidden;
+
+}
+
+.height{
+    width: 54vw;
+    /* border: 2px solid black; */
+}
+ 
+.searchBox{
+    position: absolute;
+    top: 55%;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    left: 26vw;
+    width: 50vw;
+    /* height: ; */
+}
+.form{
+    position: relative;
+
+}
+
+.form .fa-search{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: #9ca3af;
+
+}
+
+.form span {
+    position: absolute;
+    right: 30px;
+    top: 13px;
+    padding: 2px;
+    border-left: 3px solid #d1d5db;
+
+
+}
+
+
+.left-pan{
+    padding-left: 7px;
+}
+.left-pan i{
+    padding-left: 10px;
+}
+
+.form-input{
+    height: 60px;
+    width: 50vw;
+    text-indent: 33px;
+    border-radius: 30px;
+    /* border: solid 1px black; */
+
+}
+.form-input:focus{
+    box-shadow: none;
+    border: none;
+}
+
+.linkNearby{
+    position: absolute;
+    top:45vw;
+    left: 37vw;
+    z-index: 1;
+    /* color: dimgray; */
+    cursor: pointer;
+}
+.linkNearby:link{
+    color: bisque;
+}
+.linkNearby:hover{
+    color: black;
+}
+
+.BestOfWeekTitle{
+    margin-left: 3vw;
+    font-size: 40px;
+    
+   
+}
+.BestOfWeek{
+    margin-left: 2vw;
+}
+
+
+
+@media (max-width: 1000px ) {
+    .carousel-slide{
+        height: 55vw;
+    }
+    .form-input{
+        height: 30px;
+    }
+    .form .fa-search{
+        position: absolute;
+        top: 9px;
+        left: 16px;
+        color: #9ca3af;
+    
+    }
+    .linkNearby{
+        position: absolute;
+        top: 80%;
+        left: 36w;
+    }
+}
+@media (min-width:1000px){
+    .searchBox{
+        top: 65%;
+    position: absolute;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    left: 25vw;
+    width: 50vw;
+   }
+   
+    .linkNearby{
+        position: absolute;
+        top: 83%;
+        left: 43vw;
+    }
+    
+    
+    }
+   
+    @media screen  and (min-width:576px){
+        .carousel-inner2{
+            display: flex;
+        }
+        .carousel-item2{
+            display: block;
+            margin-right: 0;
+            flex:  0 0 calc(100%/3);
+        }
+    }
+
+    /* .carousel-inner2{
+        padding: 1em;
+    } */
+    .card{
+        margin: 0.5em;
+        overflow: hidden;
+    }
+
+    .card-img-top{
+        transform-origin: center;
+     transition: ease-in 400ms;
+    }
+    .card-img-top:hover{
+        width: 110%;
+        
+        
+
+    }

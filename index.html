@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AL-JABL</title>
+    <!-- bootstrap links -->
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <!-- cdn links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- local files  -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+<!-- navbar start -->
+  <nav class="navbar navbar-expand-lg  fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white"  href="#">AL-JABL</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon navbar-dark p-3 "></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto ">
+          <li class="nav-item">
+            <div class="dropdown  text-dark">
+          <a class="btn btn-secondary dropdown-toggle bg-transparent border-0" href="#" role="button" data-bs-toggle="dropdown" classaria-expanded="false">Explore</a>
+    
+  
+
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item " href="#">Nearby Trails</a></li>
+    <li><a class="dropdown-item" href="#">Community</a></li>
+    <li><a class="dropdown-item" href="#">National park guides</a></li>
+  </ul>
+</div>
+          </li>
+          <li class="nav-item">
+            <div class="dropdown">
+              <div class="dropdown">
+                <a class="btn btn-secondary dropdown-toggle bg-transparent border-0" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Shop
+                </a>
+              
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">All trails</a></li>
+                  <li><a class="dropdown-item" href="#">Gear Shop</a></li>
+                  <li>
+                </ul>
+              </div>
+          </li>
+          <li class="nav-item">
+            <div class="dropdown">
+              <a class="btn btn-secondary dropdown-toggle bg-transparent border-0" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Saved
+              </a>
+             <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Create a List</a></li>
+              <li><a class="dropdown-item" href="#">Create a Map</a></li>
+            </ul>
+          </div>
+          </li>
+          <li class="nav-item">
+            <div class="dropdown">
+              <a class="btn btn-secondary dropdown-toggle bg-transparent border-0" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Login
+              </a>
+             <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Log in</a></li>
+              <li><a class="dropdown-item" href="#">Sign Up</a></li>
+            </ul>
+          </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+    <!-- navbar end -->
+     
+   <!-- carousel start -->
+   
+     
+   
+   
+   <div id="carouselExampleAutoplaying " class="carousel-slide " data-bs-ride="carousel">
+    <div class="heading-in-carousel">Explore The Nature</div> 
+    <!-- search start -->
+     <div class="searchBox">
+       <div class="row height d-flex justify-content-centre align-items-centre">
+        <div class="col-md-6">
+          <div class="form">
+            <i class="fa fa-search"></i>
+            <input type="text" 
+            class="form-control form-input" placeholder="Search by city, park, or trial name">
+            <!-- <span class="left-pan "> <i class="fa fa-microphone"></i></span> -->
+          </div>
+        </div>
+       </div>
+  </div>
+
+    <!-- search end  -->
+     <div class="linkNearby">
+      <a href="#">Explore Nearby Trails</a>
+     </div>
+      <div class="carousel-inner" >
+        <div class="carousel-item active">
+          <img src="images/backpack-4339090.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/hiking-7712678.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/mountain-2585069.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+    <!-- carousel end -->
+      <header>
+ <!-- best of week  --> 
+<div class="best">
+  <p class="BestOfWeekTitle">Best of week near your location</p>
+   <div class="BestOfWeek" >
+   
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner2" >
+
+        <div class="carousel-item2 active" >
+          <div class="card" >
+            <img src="images/path-8357174.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Javid's home</h5>
+              <p class="card-text">here you can pick javid to do something and Some quick example text to build on the card title </p>
+              <a href="#" class="btn btn-primary">Book Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item2 active" >
+          <div class="card" >
+            <img src="images/path-8357174.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">javid's adda</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Book Now</a>
+            </div>
+          </div>
+        </div>
+
+       
+
+        
+
+
+        <div class="carousel-item2 active" >
+          <div class="card" >
+            <img src="images/path-8357174.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">javids something else</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Book Now</a>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    
+  </div>
+</body>
+</html>
